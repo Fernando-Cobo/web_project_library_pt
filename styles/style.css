@@ -135,6 +135,19 @@
   justify-content: space-between;
 }
 
+.card__title {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.card__text {
+  margin: 20px 0 0;
+  font-size: 16px;
+  line-height: 24px;
+}
+
 .card__footer {
   margin-top: auto;
   color: #838383;
