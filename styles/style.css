@@ -2,7 +2,7 @@
   min-width: 1100px;
   max-width: 1600px;
   margin: 0 auto;
-  font-family: Arial;
+  font-family: Arial, sans-serif;
   font-size: 16px;
   line-height: 20px;
 }
@@ -202,8 +202,6 @@
 }
 
 .event-info__icon {
-  background-repeat: no-repeat;
-  background-position: center;
   margin-right: 12px;
   width: 24px;
   height: 24px;
@@ -246,31 +244,26 @@
 }
 
 .person_name_feynman {
-  position: absolute;
   top: -30px;
   left: 319px;
 }
 
 .person_name_burbidge {
-  position: absolute;
   top: 96px;
   right: 125px;
 }
 
 .person_name_cannon {
-  position: absolute;
   bottom: 18px;
   right: 216px;
 }
 
 .person_name_mitchell {
-  position: absolute;
   bottom: 82px;
   left: 142px;
 }
 
 .person_name_tarter {
-  position: absolute;
   top: 79px;
   left: 159px;
 }
@@ -317,7 +310,7 @@
   margin: 100px 0 0;
   display: flex;
   gap: 40px;
-  padding: 220px;
+  padding: 0;
   justify-content: center;
 }
 
@@ -332,6 +325,7 @@
   font-weight: 700;
   display: flex;
   align-items: center;
+  font-family: Arial;
 }
 
 .step__icon {
@@ -386,6 +380,7 @@
 
 .footer__column-link {
   text-decoration: none;
+  color: #ffffff;
 }
 
 .footer__social-icon {
